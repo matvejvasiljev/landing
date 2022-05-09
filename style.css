@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 10px black;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.menu{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.menu a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.menu a:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.banner{
+    text-align: right;
+    background-image: url("bg_banner.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.banner h2{
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(125, 125, 125);
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.banner p{
+    display: inline-block;
+    text-align: right;
+    color: white;
+    width: 40%;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, transparent, #000000);
+    border-radius: 5px;
+}
+#clickit{
+    display: block;
+    width: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 3px rgb(125, 125, 125);
+    text-decoration: none;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+    transition: 0.2s;
+}
+#clickit:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: scale(1.1);
+}
+#aboutus{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 0;
+}
+.sectionTitle{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0px 0px 5px rgb(125, 125, 125);
+    margin-bottom: 20px;
+}
+.info{
+    display: inline-block;
+    width: 50%;
+    font-size: 18px;
+    vertical-align: middle;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.info h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info p{
+    line-height: 25px;
+    color: #222;
+}
+#aboutus img{
+    width: calc(50% - 80px);
+    /* padding: 20px;
+    box-sizing: border-box; */
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    vertical-align: middle;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+}
+#smallTitle{
+    text-align: center;
+    color: #333333;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+#factory{
+    text-align: center;
+}
+.location:first-of-type{
+    background-image: url("New_Zealand.jpeg");
+}
+.location:nth-of-type(2){
+    background-image: url("Germany.jpeg");
+}
+.location:last-of-type{
+    background-image: url("Norway.jpeg");
+}
+.location{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 25%;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00000077;
+    text-align: center;
+    margin: 15px;
+}
+.location h3{
+    color: white;
+    text-shadow: 0px 0px 5px rgb(86, 86, 86);
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.location ul{
+    background-color: rgba(255, 255, 255, 0.75);
+    list-style: none;
+}
+.location li{
+    line-height: 40px;
+}
+.location a{
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    line-height: 40px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transition: 0.2s;
+}
+.location a:hover{
+    transform: scale(1.1);
+}
+#team{
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+}
+.person{
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin: 30px;
+}
+.person img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    object-fit: cover;
+    margin: 10px;
+}
+#bigPicture{
+    object-position: top;
+}
+#smallPicture{
+    object-position: bottom;
+}
+.person p{
+    text-align: left;
+    line-height: 30px;
+    color: #333;
+}
+.person h4{
+    color: #333;
+}
+.person a{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.555);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px #00000075;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.2s;
+}
+.person a:hover{
+    transform: scale(1.1);
+}
+#feedback p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#feedback{
+    margin-bottom: 150px;
+}
+#feedback input, #feedback textarea{
+    display: block;
+    margin: auto;
+    line-height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none;
+}
+#feedback textarea{
+    line-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    resize: none;
+}
+#feedback button{
+    background-color: #ffffff50;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 175px;
+    line-height: 40px;
+    border-radius: 10px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+#feedback button:hover{
+    transform: scale(1.1);
+    background-color: #ffffff75;
+}
+
+@media(max-width:600px){
+    #firstTitle{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .banner p{
+        width: 90%;
+        margin: auto;
+        box-sizing: border-box;
+        display: block;
+    }
+    #clickit{
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .sectionTitle{
+        font-size: 25px;
+    }
+    .info{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+    #aboutus img{
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+    .location{
+        width: 90%;
+    }
+    #team{
+        width: 100%;
+    }
+    .person{
+        margin: auto;
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #feedback input, #feedback textarea{
+        width: 80%;
+    }
+}
